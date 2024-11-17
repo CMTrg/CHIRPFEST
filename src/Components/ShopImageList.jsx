@@ -1,12 +1,12 @@
 import React, { useState } from "react";
-/* import Hat1 from "../assets/Shop/Hat1.svg";
-import Hat2 from "../assets/Shop/Hat2.svg"; */
-/* import Lanyard1 from "../src/assets/Shop/Lanyard1.svg";
-import Lightstick1 from "../src/assets/Shop/Lightstick1.svg";
-import Lightstick2 from "../src/assets/Shop/Lightstick2.svg";
-import Lightstick3 from "../src/assets/Shop/Lightstick3.svg";
-import Shirt1 from "../src/assets/Shop/Shirt1.svg";
-import Shirt2 from "../src/assets/Shop/Shirt2.svg"; */
+/* import Hat1 from "./assets/Shop/Hat1.svg";
+import Hat2 from "./assets/Shop/Hat2.svg";
+import Lanyard1 from "./src/assets/Shop/Lanyard1.svg";
+import Lightstick1 from "./src/assets/Shop/Lightstick1.svg";
+import Lightstick2 from "./src/assets/Shop/Lightstick2.svg";
+import Lightstick3 from "./src/assets/Shop/Lightstick3.svg";
+import Shirt1 from "./src/assets/Shop/Shirt1.svg";
+import Shirt2 from "./src/assets/Shop/Shirt2.svg"; */
 const ShopImageList = () => {
   // State to track the currently selected set of images
   const [selectedImages, setSelectedImages] = useState([]);
@@ -17,39 +17,39 @@ const ShopImageList = () => {
       id: 1,
       label: "ALL",
       images: [
-        "../src/assets/Shop/Hat1.svg",
-        "../src/assets/Shop/Hat2.svg",
-        "../src/assets/Shop/Lanyard1.png",
-        "../src/assets/Shop/Lightstick1.svg",
-        "../src/assets/Shop/Lightstick2.svg",
-        "../src/assets/Shop/Lightstick3.svg",
-        "../src/assets/Shop/Shirt1.svg",
-        "../src/assets/Shop/Shirt2.svg",
+        "./public/Shop/Hat1.svg",
+        "./public/Shop/Hat2.svg",
+        "./public/Shop/Lanyard1.png",
+        "./public/Shop/Lightstick1.svg",
+        "./public/Shop/Lightstick2.svg",
+        "./public/Shop/Lightstick3.svg",
+        "./public/Shop/Shirt1.svg",
+        "./public/Shop/Shirt2.svg",
       ], // Replace with your image paths
     },
     {
       id: 2,
       label: "HAT",
-      images: [ "../src/assets/Shop/Hat1.svg",
-      "../src/assets/Shop/Hat2.svg",]
+      images: ["./public/Shop/Hat1.svg", "./public/Shop/Hat2.svg"],
     },
     {
       id: 3,
       label: "T-SHIRT",
-      images: [ "../src/assets/Shop/Shirt1.svg",
-      "../src/assets/Shop/Shirt2.svg"],
+      images: ["./public/Shop/Shirt1.svg", "./public/Shop/Shirt2.svg"],
     },
     {
       id: 4,
       label: "LANYARD",
-      images: [  "../src/assets/Shop/Lanyard1.png"],
+      images: ["./public/Shop/Lanyard1.png"],
     },
     {
       id: 5,
       label: "LIGHTSTICK",
-      images: [        "../src/assets/Shop/Lightstick1.svg",
-      "../src/assets/Shop/Lightstick2.svg",
-      "../src/assets/Shop/Lightstick3.svg"],
+      images: [
+        "./public/Shop/Lightstick1.svg",
+        "./public/Shop/Lightstick2.svg",
+        "./public/Shop/Lightstick3.svg",
+      ],
     },
   ];
 

@@ -262,7 +262,7 @@ nav {
 
 .slick-dots{
   position: absolute;
-  transform: translate(-5%,-60%);
+  transform: translate(-5%,-75%);
 }
 .slick-dots li button:before {
   color:White !important;
@@ -326,6 +326,7 @@ nav {
   flex-wrap: wrap;
   flex-flow: row;
   width: 50%;
+  height: 100%;
   padding-left: 10%;
   margin-bottom: 10px;
 }
@@ -335,6 +336,11 @@ nav {
   flex-wrap: nowrap;
   align-items: center;
   width: 100%;
+  height: 100%;
+  overflow-y: hidden;
+}
+#ticketinfo1{
+  padding-bottom: 7.125%;
 }
 .tickets{
   border: 1px solid var(--SHOPCOLOR);
@@ -343,6 +349,7 @@ nav {
 #VIPTicket{
   margin-left: 10%;
   margin-right: 5%;
+  height: 100%;
 
 }
 #title1, #title2{
@@ -369,15 +376,19 @@ nav {
 }
 .AddBtn1{
   position:relative;
-  top: 10.75%;
   z-index: 2;
+  transform: translate(0, 100%);
+}
+.AddBtn1-pressed{
+  position:relative;
+  z-index: 1;
 }
 .AddBtn1:active{
   opacity: 0;
 }
 .AddBtn2{
   position:relative;
-  top: 8.25%;
+  transform: translate(0,100%);
   z-index: 2;
 }
 .AddBtn2:active{
@@ -385,7 +396,7 @@ nav {
 }
 .AddBtn2-pressed{
   position: relative;
-  top: -2.5%;
+  z-index: 1;
 }
 /* STAGE PAGE */
 .stage-page-container{
@@ -540,6 +551,11 @@ nav {
 #LOCATIONTITLE{
   width: 100%;
   margin-top: 20%;
+}
+/* CONTACT PAGE */
+.contact-page-container{
+  display: flex;
+  flex-direction: column;
 }
 /* MEDIA */
 @media (max-width: 1000px) {

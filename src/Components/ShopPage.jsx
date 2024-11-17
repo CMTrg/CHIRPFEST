@@ -1,6 +1,6 @@
 import React from "react";
-import ShopTitle from "../assets/Shop/ShopTitle.svg";
-import TitleDes from "../assets/Shop/TitleDes.svg";
+import ShopTitle from "/Shop/ShopTitle.svg";
+import TitleDes from "/Shop/TitleDes.svg";
 import ShopImageList from "./ShopImageList";
 function ShopPage() {
   return (

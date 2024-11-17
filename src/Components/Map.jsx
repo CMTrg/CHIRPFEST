@@ -44,7 +44,7 @@ const MapBackground = () => {
         style={{
           width: '200%',
           height: '200%',
-          backgroundImage: `url('../src/assets/Location/Map.png')`,
+          backgroundImage: `url('./public/Map.png')`,
           backgroundSize: 'cover',
           backgroundPosition: ' -55vh 400%',
           position: 'absolute',

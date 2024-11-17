@@ -25,15 +25,15 @@ function TicketPage(){
                     <img src={NormTicket} alt="" className="tickets"/>
                     
                     <img src={NormTicketTitle} alt="" id="title1"/>
-                    <img src={NormTicketInfo} alt="" />
+                    <img src={NormTicketInfo} alt="" id="ticketinfo1"/>
                     <img src={AddBtn} alt="" className="AddBtn1"/>
-                    <img src={AddBtnPressed} alt="" className="AddBtn"/>
+                    <img src={AddBtnPressed} alt="" className="AddBtn1-pressed"/>
 
                 </div>
                 <div id="VIPTicket">
                     <img src={VIPTicket} alt="" className="tickets"/>
                     <img src={VIPTicketTitle} alt="" id="title2"/>
-                    <img src={VIPTicketInfo} alt="" />
+                    <img src={VIPTicketInfo} alt="" id="ticketinfo2"/>
                     <img src={AddBtn} alt="" className="AddBtn2"/>
                     <img src={AddBtnPressedVIP} alt="" className="AddBtn2-pressed"/>
                 </div>

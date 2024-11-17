@@ -64,7 +64,7 @@ function Navbar() {
     {
       title: "Contact",
       icon: (
-        <a href="">
+        <a href="#CONTACTPAGE">
           <img src={Contact} alt="Contact" />
         </a>
       ),
@@ -92,7 +92,7 @@ function Navbar() {
         <a href="#LOCATIONPAGE">
           <img src={Location} alt="Location" />
         </a>
-        <a href="">
+        <a href="#CONTACTPAGE">
           <img src={Contact} alt="Contact" />
         </a>
       </div>
