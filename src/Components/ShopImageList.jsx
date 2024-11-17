@@ -10,39 +10,35 @@ const ShopImageList = () => {
       id: 1,
       label: "ALL",
       images: [
-        "/Shop/Hat1.svg",
-        "/Shop/Hat2.svg",
-        "/Shop/Lanyard1.png",
-        "/Shop/Lightstick1.svg",
-        "/Shop/Lightstick2.svg",
-        "/Shop/Lightstick3.svg",
-        "/Shop/Shirt1.svg",
-        "/Shop/Shirt2.svg",
+        "Hat1.svg",
+        "Hat2.svg",
+        "Lanyard1.png",
+        "Lightstick1.svg",
+        "Lightstick2.svg",
+        "Lightstick3.svg",
+        "Shirt1.svg",
+        "Shirt2.svg",
       ], // Image paths from public/Shop
     },
     {
       id: 2,
       label: "HAT",
-      images: ["/Shop/Hat1.svg", "/Shop/Hat2.svg"],
+      images: ["Hat1.svg", "Hat2.svg"],
     },
     {
       id: 3,
       label: "T-SHIRT",
-      images: ["/Shop/Shirt1.svg", "/Shop/Shirt2.svg"],
+      images: ["Shirt1.svg", "Shirt2.svg"],
     },
     {
       id: 4,
       label: "LANYARD",
-      images: ["/Shop/Lanyard1.png"],
+      images: ["Lanyard1.png"],
     },
     {
       id: 5,
       label: "LIGHTSTICK",
-      images: [
-        "/Shop/Lightstick1.svg",
-        "/Shop/Lightstick2.svg",
-        "/Shop/Lightstick3.svg",
-      ],
+      images: ["Lightstick1.svg", "Lightstick2.svg", "Lightstick3.svg"],
     },
   ];
 
